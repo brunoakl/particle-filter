@@ -10,9 +10,8 @@ Testado com
 - OpenCV-Python 4.5.5.64
 - Scipy 1.7.3
 - Ubuntu 24.04 LTS
----------------------
+
 COMANDOS NECESSÁRIOS
----------------------
 Criando Ambiente Virtual
  -> $ conda create -n vc
  -> $ conda env list
@@ -21,7 +20,7 @@ Criando Ambiente Virtual
  -> $ conda list
 Remove tudo para instalar de novo:
  -> $ conda remove --name vc --all
-----------------------------
+
 Instalando dependências de:
 *Filtragem de partículas
  -> $ pip install pfilter(Repositório utilizado)
