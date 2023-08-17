@@ -40,7 +40,8 @@ Conda e Python
 Em maior parte, repositórios e funções de filtragem mencionados em meio aos códigos example_filter.py e e pfilter.py.
 
 ### EXPLICAÇÃO
-Desenvolvimento: Usamos como base um código python(https://github.com/johnhw/pfilter) para nosso filtro. Ao comentar com o professor sobre isso, nos foi requisitado que implementássemos mais formatos para o filtro. Mesmo com duas semanas de pesquisa, não obtivemos sucesso com isso e tivemos que deixar apenas o filtro circular. O autor original afirma que é apenas um código para explicar o funcionamento de um Filtro de Partículas, sem muitas outras funções acrescentadas.
+**Desenvolvimento**: 
+Usamos como base um código python(https://github.com/johnhw/pfilter) para nosso filtro. Ao comentar com o professor sobre isso, nos foi requisitado que implementássemos mais formatos para o filtro. Mesmo com duas semanas de pesquisa, não obtivemos sucesso com isso e tivemos que deixar apenas o filtro circular. O autor original afirma que é apenas um código para explicar o funcionamento de um Filtro de Partículas, sem muitas outras funções acrescentadas.
 
 **Funciomanento**: 
 O filtro usa uma quantidade determinada de partículas e ruídos para desenhar dentro do formato implementado de dimensões fornecidas no código. No nosso caso, um círculo. O objetivo é computar como a figura se move a partir de observações parciais com ruído. O peso das partículas é levado em consideração para prever as posições do círculo.
