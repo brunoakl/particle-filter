@@ -24,23 +24,22 @@ Remove tudo para instalar de novo:
 
 ### Instalando dependências de:
 Filtragem de partículas
-- $ pip install pfilter(Repositório utilizado)
-- $ pip install particles (Filtragem mais limpa)
-- $ pip install filterpy (Contém o filtro de Kalman e alguns filtros básicos)
-- $ pip install pyfilter(Contém algoritmos de reamostragem, modelos auxiliares e algoritmos avançados com base em PyTorch)
-- $ pip install pykalman(Mais implementações do filtro de Kalman)
-- $ pip install simdkalman(Filtro de Kalman básico implementado)	
-- $ pip install torch-kalman(Implementações PyTorch)
+- $ pip install pfilter      (Repositório utilizado)
+- $ pip install particles    (Filtragem mais limpa)
+- $ pip install filterpy     (Contém o filtro de Kalman e alguns filtros básicos)
+- $ pip install pyfilter     (Contém algoritmos de reamostragem, modelos auxiliares e algoritmos avançados com base em PyTorch)
+- $ pip install pykalman     (Mais implementações do filtro de Kalman)
+- $ pip install simdkalman   (Filtro de Kalman básico implementado)	
+- $ pip install torch-kalman (Implementações PyTorch)
 
-*Conda e Python
-$ conda install scikit-image=0.16 opencv scipy numpy(Em caso de conflitos, usar o scikit 0.19.2)
-$ pip install opencv-python
-----------------------------
-SITES CONSULTADOS:
+Conda e Python
+- $ conda install scikit-image=0.16 opencv scipy numpy   (Em caso de conflitos, usar o scikit 0.19.2)
+- $ pip install opencv-python
+
+### SITES CONSULTADOS:
 Em maior parte, repositórios e funções de filtragem mencionados em meio aos códigos example_filter.py e e pfilter.py.
-------------
-EXPLICAÇÃO
-------------
+
+###EXPLICAÇÃO
 Desenvolvimento: Usamos como base um código python(https://github.com/johnhw/pfilter) para nosso filtro. Ao comentar com o professor sobre isso, nos foi requisitado que implementássemos mais formatos para o filtro. Mesmo com duas semanas de pesquisa, não obtivemos sucesso com isso e tivemos que deixar apenas o filtro circular. O autor original afirma que é apenas um código para explicar o funcionamento de um Filtro de Partículas, sem muitas outras funções acrescentadas.
 
 Funciomanento: 
