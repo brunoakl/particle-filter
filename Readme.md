@@ -1,7 +1,7 @@
 # Autores:Bruno Machado Ferreira, Ernani Neto, Fábio Gomes e Ryan Nantes
 ## Filtro de Partículas
 
-Testado com 
+Testado com
 Conda 4.12.0
 Python 3.7.13
 Scikit-Image 0.16 e 0.19.2
