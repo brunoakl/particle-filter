@@ -2,14 +2,14 @@
 ## Filtro de Partículas
 
 Testado com
-Conda 4.12.0
-Python 3.7.13
-Scikit-Image 0.16 e 0.19.2
-Numpy 1.21.5
-OpenCV 4.1.0
-OpenCV-Python 4.5.5.64
-Scipy 1.7.3
-Ubuntu 24.04 LTS
+> Conda 4.12.0
+> Python 3.7.13
+> Scikit-Image 0.16 e 0.19.2
+> Numpy 1.21.5
+> OpenCV 4.1.0
+> OpenCV-Python 4.5.5.64
+> Scipy 1.7.3
+> Ubuntu 24.04 LTS
 ---------------------
 COMANDOS NECESSÁRIOS
 ---------------------
