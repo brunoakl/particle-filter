@@ -11,25 +11,26 @@ Testado com
 - Scipy 1.7.3
 - Ubuntu 24.04 LTS
 
-COMANDOS NECESSÁRIOS
+### COMANDOS NECESSÁRIOS:
 Criando Ambiente Virtual
- -> $ conda create -n vc
- -> $ conda env list
- -> $ conda activate vc
- -> $ conda install scikit-image opencv
- -> $ conda list
+- $ conda create -n vc
+- $ conda env list
+- $ conda activate vc
+- $ conda install scikit-image opencv
+- $ conda list
+- 
 Remove tudo para instalar de novo:
- -> $ conda remove --name vc --all
+- $ conda remove --name vc --all
 
-Instalando dependências de:
-*Filtragem de partículas
- -> $ pip install pfilter(Repositório utilizado)
- -> $ pip install particles (Filtragem mais limpa)
- -> $ pip install filterpy (Contém o filtro de Kalman e alguns filtros básicos)
- -> $ pip install pyfilter(Contém algoritmos de reamostragem, modelos auxiliares e algoritmos avançados com base em PyTorch)
- -> $ pip install pykalman(Mais implementações do filtro de Kalman)
- -> $ pip install simdkalman(Filtro de Kalman básico implementado)	
- -> $ pip install torch-kalman(Implementações PyTorch)
+### Instalando dependências de:
+Filtragem de partículas
+- $ pip install pfilter(Repositório utilizado)
+- $ pip install particles (Filtragem mais limpa)
+- $ pip install filterpy (Contém o filtro de Kalman e alguns filtros básicos)
+- $ pip install pyfilter(Contém algoritmos de reamostragem, modelos auxiliares e algoritmos avançados com base em PyTorch)
+- $ pip install pykalman(Mais implementações do filtro de Kalman)
+- $ pip install simdkalman(Filtro de Kalman básico implementado)	
+- $ pip install torch-kalman(Implementações PyTorch)
 
 *Conda e Python
 $ conda install scikit-image=0.16 opencv scipy numpy(Em caso de conflitos, usar o scikit 0.19.2)
